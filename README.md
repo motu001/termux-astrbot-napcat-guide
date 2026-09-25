@@ -1,6 +1,6 @@
 # 手机部署 QQ 机器人：Termux + Ubuntu PRoot + AstrBot + NapCat
 
-> 面向初学者的**方案与操作清单**，截至 2026-09-25。无需 root；不是 Docker 一键部署。先读[完整教程](docs/从零安装与连接.md)和[安全说明](docs/安全与故障排查.md)。
+> **零镜像新手教程（2026-09-25 更新）**：只用官方公开来源准备 Termux、PRoot 发行版镜像、AstrBot 和 NapCat，不需要机主的私有镜像或备份。每一步都有成功判据与失败停止点；尚未在全新设备逐步端到端复现，NapCat/QQ 的下载、登录和兼容性不可保证。无需 root；不是 Docker 一键部署。先读[完整教程](docs/从零安装与连接.md)和[安全说明](docs/安全与故障排查.md)。
 
 ```text
 测试 QQ 号 → Linux QQ / NapCat ──OneBot v11 反向 WebSocket──> AstrBot → 回复
