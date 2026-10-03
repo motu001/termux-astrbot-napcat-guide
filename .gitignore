@@ -49,3 +49,12 @@ video/tutorial_20261003/layout_preflight/
 video/tutorial_20261003/visual_tests/
 # This reviewed JSON contains only public narration and illustrative commands.
 !video/tutorial_20261003/scenes.json
+
+# Reviewed short handoff course source; generated assets stay local.
+!video/handoff_short_20261003/scenes.json
+video/handoff_short_20261003/audio/
+video/handoff_short_20261003/cards/
+video/handoff_short_20261003/clips/
+video/handoff_short_20261003/captions/
+video/handoff_short_20261003/qa/
+video/handoff_short_20261003/layout_preflight/

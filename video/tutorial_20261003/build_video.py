@@ -32,7 +32,8 @@ def save_json(path, obj):
 def load_json(path, default=None):
     return json.loads(Path(path).read_text(encoding='utf-8-sig')) if Path(path).exists() else default
 
-def run(args, cwd=WORK, timeout=300, log=None):
+def run(args, cwd=None, timeout=300, log=None):
+    if cwd is None: cwd = WORK
     p = subprocess.run([str(x) for x in args], cwd=cwd, capture_output=True, timeout=timeout)
     if log: Path(log).write_bytes(p.stderr)
     if p.returncode:

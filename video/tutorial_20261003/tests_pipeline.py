@@ -28,6 +28,12 @@ class PipelineTests(unittest.TestCase):
             lines=b.wrap_caption(text,width=400)
             self.assertEqual(''.join(lines),text)
             self.assertTrue(any(term in line for line in lines),(term,lines))
+    def test_reused_engine_resolves_current_workdir_at_call_time(self):
+        from types import SimpleNamespace
+        alternate=Path('alternate_course')
+        with patch.object(b,'WORK',alternate), patch.object(b.subprocess,'run',return_value=SimpleNamespace(returncode=0,stderr=b'',stdout=b'')) as execute:
+            b.run(['fake-command'])
+            self.assertEqual(execute.call_args.kwargs['cwd'],alternate)
     def test_time_formats(self):
         self.assertEqual(b.ass_time(3661.23),'1:01:01.23')
         self.assertEqual(b.srt_time(3661.234),'01:01:01,234')
