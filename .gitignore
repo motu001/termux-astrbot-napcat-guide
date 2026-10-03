@@ -1,4 +1,4 @@
-# 只提交手工审核过的 Markdown 与许可证；这些条目用来防误提交，不代替审查
+# 只提交逐文件审核的教程、许可证与原创制作源码；规则不代替人工审查
 .env
 .env.*
 !.env.example
@@ -33,3 +33,19 @@ secrets/
 private/
 __pycache__/
 .DS_Store
+
+# Generated production media/cache (never upload with source)
+*.m4a
+*.ass
+*.ffconcat
+*.ffmetadata
+06_成片/
+video/tutorial_20261003/audio/
+video/tutorial_20261003/cards/
+video/tutorial_20261003/clips/
+video/tutorial_20261003/captions/
+video/tutorial_20261003/qa/
+video/tutorial_20261003/layout_preflight/
+video/tutorial_20261003/visual_tests/
+# This reviewed JSON contains only public narration and illustrative commands.
+!video/tutorial_20261003/scenes.json
