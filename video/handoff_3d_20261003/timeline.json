@@ -1,0 +1,103 @@
+{
+  "fps": 24,
+  "duration": 153.33333333333334,
+  "frames": 3680,
+  "scenes": [
+    {
+      "id": "001",
+      "chapter": "01",
+      "title": "人准备，Agent来部署",
+      "start": 0.0,
+      "start_frame": 0,
+      "duration": 17.291666666666668,
+      "frames": 415,
+      "voice_duration": 16.64
+    },
+    {
+      "id": "002",
+      "chapter": "01",
+      "title": "人：安装与手机权限",
+      "start": 17.291666666666668,
+      "start_frame": 415,
+      "duration": 18.916666666666668,
+      "frames": 454,
+      "voice_duration": 18.24
+    },
+    {
+      "id": "003",
+      "chapter": "01",
+      "title": "人：接通远程连接",
+      "start": 36.208333333333336,
+      "start_frame": 869,
+      "duration": 18.416666666666668,
+      "frames": 442,
+      "voice_duration": 17.76
+    },
+    {
+      "id": "004",
+      "chapter": "01",
+      "title": "人：把执行文档交出去",
+      "start": 54.625,
+      "start_frame": 1311,
+      "duration": 20.333333333333332,
+      "frames": 488,
+      "voice_duration": 19.68
+    },
+    {
+      "id": "006",
+      "chapter": "02",
+      "title": "Agent：自动部署配置",
+      "start": 74.95833333333333,
+      "start_frame": 1799,
+      "duration": 20.041666666666668,
+      "frames": 481,
+      "voice_duration": 19.36
+    },
+    {
+      "id": "007",
+      "chapter": "02",
+      "title": "必须本人时才叫你",
+      "start": 95.0,
+      "start_frame": 2280,
+      "duration": 15.875,
+      "frames": 381,
+      "voice_duration": 15.2
+    },
+    {
+      "id": "008",
+      "chapter": "02",
+      "title": "Agent：检查到真实结果",
+      "start": 110.875,
+      "start_frame": 2661,
+      "duration": 22.25,
+      "frames": 534,
+      "voice_duration": 21.6
+    },
+    {
+      "id": "009",
+      "chapter": "02",
+      "title": "交付一张验收回执",
+      "start": 133.125,
+      "start_frame": 3195,
+      "duration": 20.208333333333332,
+      "frames": 485,
+      "voice_duration": 19.52
+    }
+  ],
+  "chapters": [
+    {
+      "id": "01",
+      "title": "人需要做的准备",
+      "start_frame": 0,
+      "start": 0.0,
+      "end": 74.95833333333333
+    },
+    {
+      "id": "02",
+      "title": "Agent负责部署与验收",
+      "start_frame": 1799,
+      "start": 74.95833333333333,
+      "end": 153.33333333333334
+    }
+  ]
+}

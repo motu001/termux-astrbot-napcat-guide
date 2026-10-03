@@ -9,7 +9,7 @@ import sys
 from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT = {'.md', '.py', '.json', '.sh', '.txt', '.srt'}
+TEXT = {'.md', '.py', '.json', '.sh', '.txt', '.srt', '.frag', '.vert'}
 SECRET = re.compile(r'\bsk-[A-Za-z0-9_-]{24,}|\bAIza[A-Za-z0-9_-]{30,}')
 PRIVATE_IP = re.compile(r'\b(?:192\.168\.\d{1,3}\.\d{1,3}|10\.\d{1,3}\.\d{1,3}\.\d{1,3}|172\.(?:1[6-9]|2\d|3[01])\.\d{1,3}\.\d{1,3})\b')
 LINK = re.compile(r'\[[^\]\n]*\]\(([^)\n]+)\)')

@@ -58,3 +58,10 @@ video/handoff_short_20261003/clips/
 video/handoff_short_20261003/captions/
 video/handoff_short_20261003/qa/
 video/handoff_short_20261003/layout_preflight/
+
+# Reviewed timing-only inputs for the GPU animation source
+!video/handoff_3d_20261003/timeline.json
+!video/handoff_3d_20261003/subtitle_events.json
+video/handoff_3d_20261003/lookdev/
+video/handoff_3d_20261003/qa/
+video/handoff_3d_20261003/overlay_tests/
